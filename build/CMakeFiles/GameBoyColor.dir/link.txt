@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\GameBoyColor.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\GameBoyColor.dir/objects.a @CMakeFiles\GameBoyColor.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\GameBoyColor.dir/objects.a -Wl,--no-whole-archive -o GameBoyColor.exe -Wl,--out-implib,libGameBoyColor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GameBoyColor.dir\linkLibs.rsp

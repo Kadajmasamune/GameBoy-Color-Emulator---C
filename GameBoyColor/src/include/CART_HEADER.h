@@ -1,4 +1,3 @@
-// CART_HEADER.h
 #ifndef CART_HEADER_H
 #define CART_HEADER_H
 
@@ -8,7 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define DUMPED_ROM_FOO "C:/Users/Rayan/Desktop/Projects/GameBoyColor/Legend of Zelda, The - Oracle of Ages (USA, Australia)/Legend of Zelda, The - Oracle of Ages (USA, Australia).gbc"
+#define DUMPED_ROM_FOO "F:\\Projects\\GameBoy-Color-Emulator---C\\GameBoyColor\\Legend of Zelda, The - Oracle of Ages (USA, Australia)\\Legend of Zelda, The - Oracle of Ages (USA, Australia).gbc"
 
 
 typedef uint8_t BYTE;
@@ -58,15 +57,43 @@ typedef struct {
     BYTE MaskRomVersionNumber;
     BYTE Header_Checksum;
     uint16_t GlobalChecksum;
+
+    // BYTE computed_Header_Checksum;  
 } Cart;
 
 
+typedef enum CartridgeType
+{
+    GarbageValue = 0x00
+};
+
+enum ROMSize
+{
+    GarbageValue = 0x00
+};
+
+
+
+
 /* API */
+
+//Header Contains The Memory Ranges Of Various Fields In The Cartridge Header
 Cartridge_Header* constructCartHeader(void);
+
+//Constructs A Cart Object from a given Rom FILE
 Cart* constructCart(const char* rom_path);
+
+//Destroys the Cart from the Heap, since constructCart() uses malloc() to allocate the Object on the heap.
 void destroyCart(Cart* cart);
+
+//Reads Bytes from a Given Rom File, stores the output in the Destination Buffer, and further allows you to pinpoint the Offset and Number of Bytes to Read.
 size_t read_bytes(FILE* rom, void* dest, uint32_t offset, size_t bytesToRead);
+
+//Computes the Header Checksum from a Given ROM Byte Array and Cartridge Header Structure
 BYTE computeHeaderChecksum(const BYTE* rom, const Cartridge_Header* header);
+
+
+
 /* Optionally: BYTE computeHeaderChecksumFromFile(FILE* rom, const Cartridge_Header* header); */
 
 #endif // CART_HEADER_H

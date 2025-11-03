@@ -50,13 +50,13 @@ Cart* constructCart(const char* rom_path) {
     FILE* f = fopen(rom_path, "rb");
     if (!f) {
         perror("fopen");
-        return nullptr;
+        return NULL;
     }
 
     Cartridge_Header* h = constructCartHeader();
     Cart* c = malloc(sizeof(Cart));
 
-    if (!c) { fclose(f); free(h); return nullptr; }
+    if (!c) { fclose(f); free(h); return NULL; }
 
     // read EntryPoint (4 bytes)
     read_bytes(f, c->EntryPoint, h->EntryPoint.start,
@@ -89,11 +89,23 @@ Cart* constructCart(const char* rom_path) {
     read_bytes(f, &c->OldLicenseeCode, h->OldLicenseeCode, 1);
     read_bytes(f, &c->MaskRomVersionNumber, h->MaskRomVersionNumber, 1);
     read_bytes(f, &c->Header_Checksum, h->Header_Checksum, 1);
+   
+    
+    // Computation of Header Checksum Below >>>>>
 
+    // BYTE x = 0;
+    // for(uint16_t i = h->Title.start; i <= h->MaskRomVersionNumber; ++i) {
+    //     BYTE b = 0;
+    //     read_bytes(f, &b, i, 1);
+    //     x = x - b - 1;
+    // }
+
+    
     // global checksum (2 bytes)
     BYTE global[2] = {0};
     read_bytes(f, global, h->GlobalChecksum.start, 2);
     c->GlobalChecksum = ((uint16_t)global[0] << 8) | global[1];
+
 
     fclose(f);
     free(h);
