@@ -21,12 +21,24 @@
     <ClCompile Include="CART_HEADER.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CPU.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemorySub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CART_HEADER.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemorySub.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

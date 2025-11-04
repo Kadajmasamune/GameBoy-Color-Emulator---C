@@ -7,16 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define DUMPED_ROM_FOO "F:\\Projects\\GameBoy-Color-Emulator---C\\GameBoyColor\\Legend of Zelda, The - Oracle of Ages (USA, Australia)\\Legend of Zelda, The - Oracle of Ages (USA, Australia).gbc"
-
-
-typedef uint8_t BYTE;
-typedef uint16_t ADDR;   // address/offset size — 16-bit is enough for GB headers
-
-typedef struct {
-    ADDR start;
-    ADDR end;
-} MemoryRange;
+#define DUMPED_ROM_FOO "F:\\Projects\\GameBoy-Color-Emulator---C\\ROM\\Legend of Zelda, The - Oracle of Ages (USA, Australia).gbc"
 
 typedef struct {
     MemoryRange EntryPoint;         // 0x0100 - 0x0103
