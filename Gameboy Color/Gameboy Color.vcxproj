@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="CART_HEADER.c" />
     <ClCompile Include="CPU.c" />
+    <ClCompile Include="EMULATOR.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="MemorySub.c" />
   </ItemGroup>
@@ -28,6 +29,7 @@
     <ClInclude Include="CART_HEADER.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="CPU.h" />
+    <ClInclude Include="EMULATOR.h" />
     <ClInclude Include="MemorySub.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

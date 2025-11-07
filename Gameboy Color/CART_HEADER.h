@@ -64,8 +64,6 @@ enum ROMSize
 };
 
 
-
-
 /* API */
 
 //Header Contains The Memory Ranges Of Various Fields In The Cartridge Header

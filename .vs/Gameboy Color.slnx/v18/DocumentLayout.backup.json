@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\MemorySub.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|solutionrelative:Gameboy Color\\MemorySub.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\MemorySub.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|solutionrelative:Gameboy Color\\MemorySub.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,36 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MemorySub.h",
-              "DocumentMoniker": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\MemorySub.h",
-              "RelativeDocumentMoniker": "Gameboy Color\\MemorySub.h",
-              "ToolTip": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\MemorySub.h",
-              "RelativeToolTip": "Gameboy Color\\MemorySub.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-04T17:09:31.733Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MemorySub.c",
-              "DocumentMoniker": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\MemorySub.c",
-              "RelativeDocumentMoniker": "Gameboy Color\\MemorySub.c",
-              "ToolTip": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\MemorySub.c",
-              "RelativeToolTip": "Gameboy Color\\MemorySub.c",
-              "ViewState": "AgIAACcAAAAAAAAAAAAhwDkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-04T18:20:53.798Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -60,9 +28,23 @@
               "RelativeDocumentMoniker": "Gameboy Color\\main.c",
               "ToolTip": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\main.c",
               "RelativeToolTip": "Gameboy Color\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-03T19:44:49.164Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemorySub.h",
+              "DocumentMoniker": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\MemorySub.h",
+              "RelativeDocumentMoniker": "Gameboy Color\\MemorySub.h",
+              "ToolTip": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\MemorySub.h",
+              "RelativeToolTip": "Gameboy Color\\MemorySub.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-07T13:50:23Z",
               "EditorCaption": ""
             }
           ]

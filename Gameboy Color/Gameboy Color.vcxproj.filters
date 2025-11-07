@@ -13,33 +13,63 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\CPU">
+      <UniqueIdentifier>{25a66420-c481-4d8a-b190-26b4b944db55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CARTRIDGE">
+      <UniqueIdentifier>{4ef0d15e-e2d5-4874-822c-0002f73a9092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MEMORY SUB">
+      <UniqueIdentifier>{d65b7815-9a92-4a46-a5b9-c5873a985d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CPU">
+      <UniqueIdentifier>{bed5c0b8-2902-474c-ac89-66ff53ac66c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CARTRIDGE">
+      <UniqueIdentifier>{ba9f8115-6cc8-4cc1-8b3d-af679715709d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MEMORY SUB">
+      <UniqueIdentifier>{9e77b1c2-d919-4cd0-9d9d-bfa18357ef60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EMULATOR">
+      <UniqueIdentifier>{b2965888-64d0-4ff4-ab22-f133bc751fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EMULATOR">
+      <UniqueIdentifier>{39567f8d-fd90-4a40-aaec-e628397a4da6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CART_HEADER.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="CPU.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="CART_HEADER.c">
+      <Filter>Source Files\CARTRIDGE</Filter>
     </ClCompile>
     <ClCompile Include="MemorySub.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\MEMORY SUB</Filter>
+    </ClCompile>
+    <ClCompile Include="EMULATOR.c">
+      <Filter>Source Files\EMULATOR</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CART_HEADER.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CPU.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="MemorySub.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\MEMORY SUB</Filter>
+    </ClInclude>
+    <ClInclude Include="CART_HEADER.h">
+      <Filter>Header Files\CARTRIDGE</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU.h">
+      <Filter>Header Files\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="EMULATOR.h">
+      <Filter>Header Files\EMULATOR</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

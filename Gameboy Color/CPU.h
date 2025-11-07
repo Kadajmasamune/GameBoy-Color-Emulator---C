@@ -45,7 +45,6 @@ typedef union {
 
 
 typedef struct {
-
     AFRegister AF;
     BCRegister BC;
     DERegister DE;
@@ -54,8 +53,12 @@ typedef struct {
     uint16_t SP;  // Stack Pointer
     uint16_t PC;  // Program Counter
 
+    GBC_MemoryMap* mem;
 
 } CPU;
 
+BYTE cpu_read8(CPU* cpu, ADDR addr);
+void cpu_write8(CPU* cpu, ADDR addr, BYTE val);
 
+CPU* CPUConstructor();
 #endif // !CPU_H
