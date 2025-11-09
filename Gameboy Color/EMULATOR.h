@@ -3,7 +3,7 @@
 #include "MemorySub.h"
 #include "CART_HEADER.h"
 #include "CPU.h"
-
+#include <stdbool.h>
 typedef struct
 { 
 	GBC_MemoryMap* mem;
@@ -16,4 +16,8 @@ typedef struct
 
 Emulator* initEmulator();
 void DestroyEmulator(Emulator* emu);
+
+bool CompareNintendoLogo(Emulator* emu);
+
+
 #endif // !EMULATOR_H

@@ -1,8 +1,6 @@
-﻿  MemorySub.c
+﻿  CART_HEADER.c
+  EMULATOR.c
   main.c
-F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CART_HEADER.h(59,2): warning C4091: 'typedef ': ignored on left of 'CartridgeType' when no variable is declared
-  (compiling source file 'main.c')
-  
   Generating Code...
   Gameboy Color.vcxproj -> F:\Projects\GameBoy-Color-Emulator---C\x64\Debug\Gameboy Color.exe
   'pwsh.exe' is not recognized as an internal or external command,

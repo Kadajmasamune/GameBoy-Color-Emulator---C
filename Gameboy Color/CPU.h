@@ -1,6 +1,10 @@
 #ifndef CPU_H
 #define CPU_H
 #include "Common.h"
+#include <stdint.h>
+
+// forward-declare memory map type so CPU.h doesn't need to include MemorySub.h
+typedef struct GBC_MemoryMap GBC_MemoryMap;
 
 //Flag Bit positions inside the F Register
 #define FLAG_Z (1<<7) // Zero Flag
@@ -53,12 +57,11 @@ typedef struct {
     uint16_t SP;  // Stack Pointer
     uint16_t PC;  // Program Counter
 
-    GBC_MemoryMap* mem;
-
 } CPU;
 
-BYTE cpu_read8(CPU* cpu, ADDR addr);
-void cpu_write8(CPU* cpu, ADDR addr, BYTE val);
+// Read/write helpers that operate on the memory map
+BYTE cpu_read8(GBC_MemoryMap* mem, ADDR addr);
+BYTE cpu_write8(GBC_MemoryMap* mem, ADDR addr, BYTE val);
 
 CPU* CPUConstructor();
 #endif // !CPU_H

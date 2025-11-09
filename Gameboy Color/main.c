@@ -2,8 +2,11 @@
 #include "EMULATOR.h"
 
 //TODO : Create CPU now
+#if defined(_WIN32)
+#include <windows.h>
+#endif
 
-int main(void) {
+int main(int argc , char* argv) {
     // openRom();
     // printf("Hello, World!\n");
 
@@ -31,11 +34,27 @@ int main(void) {
         2) Store cartridge Header location in ROM_BANK_0
         3) Store Other Various Data in the other Sectors of the Map.
     */
-    int i = 1;
+
+	//Argc and Argv will be used to pass the Rom Path from Command Line Arguments.
+
+#if defined(_DEBUG)
+    // Temporary startup pause to allow attaching debugger or setting breakpoints
+#if defined(_WIN32)
+    printf("PID: %u — attach debugger now, then press Enter to continue...\n", (unsigned)GetCurrentProcessId());
+#else
+    printf("Attach debugger now, then press Enter to continue...\n");
+#endif
+    getchar();
+#endif
 
     Emulator* emulator = initEmulator();
-    
-    if(i != 1) DestroyEmulator(emulator);
+
+    printf("Starting Emulation Loop ... \n");
+    printf("Reading Cartridge Title.. \n");
+    for (int i = 0; i < 16; i++) {
+        printf("%c", emulator->cartridge->Title[i]);
+    }
+    DestroyEmulator(emulator);
 
     return 0;
 }

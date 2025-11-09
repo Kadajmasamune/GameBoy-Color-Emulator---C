@@ -6,7 +6,8 @@
 
 //Complete Memory Map is 64 KiloBytes.
 
-typedef struct {
+// Give the struct a tag so other headers can forward-declare `struct GBC_MemoryMap`.
+typedef struct GBC_MemoryMap {
     uint8_t* MEM; // 64KB unified memory block (malloc(0x10000))
 
     uint8_t* ROM_BANK_0;          // 0x0000 - 0x3FFF (16KB)

@@ -7,7 +7,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define DUMPED_ROM_FOO "F:\\Projects\\GameBoy-Color-Emulator---C\\ROM\\Legend of Zelda, The - Oracle of Ages (USA, Australia).gbc"
+#define DUMPED_ROM_FOO_ZELDA "F:\\Projects\\GameBoy-Color-Emulator---C\\ROM\\Legend of Zelda, The - Oracle of Ages (USA, Australia).gbc"
+#define DUMPED_ROM_FOO_YUGI "F:\\Projects\\GameBoy-Color-Emulator---C\\ROM\\Yu-Gi-Oh! - Dark Duel Stories (USA).gbc"
 
 typedef struct {
     MemoryRange EntryPoint;         // 0x0100 - 0x0103
@@ -48,15 +49,15 @@ typedef struct {
     BYTE MaskRomVersionNumber;
     BYTE Header_Checksum;
     uint16_t GlobalChecksum;
-
     // BYTE computed_Header_Checksum;  
 } Cart;
 
 
+/* Properly typedef the enum so the typedef is meaningful */
 typedef enum CartridgeType
 {
     GarbageValue = 0x00
-};
+} CartridgeType;
 
 enum ROMSize
 {
@@ -80,9 +81,5 @@ size_t read_bytes(FILE* rom, void* dest, uint32_t offset, size_t bytesToRead);
 
 //Computes the Header Checksum from a Given ROM Byte Array and Cartridge Header Structure
 BYTE computeHeaderChecksum(const BYTE* rom, const Cartridge_Header* header);
-
-
-
-/* Optionally: BYTE computeHeaderChecksumFromFile(FILE* rom, const Cartridge_Header* header); */
 
 #endif // CART_HEADER_H
