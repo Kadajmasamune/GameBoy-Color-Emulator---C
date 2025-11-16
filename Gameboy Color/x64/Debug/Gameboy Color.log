@@ -1,7 +1,503 @@
-﻿  CART_HEADER.c
+﻿  CPU.c
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,34): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,34): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,41): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'CPU.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(7,30):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,54): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,59): error C2059: syntax error: ')'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(54,5): error C2061: syntax error: identifier 'InstructionFn'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(56,1): error C2059: syntax error: '}'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(73,2): error C2061: syntax error: identifier 'CPUInstructionSet'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(74,1): error C2059: syntax error: '}'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(80,4): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,17): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,17): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,24): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'CPU.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(7,30):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,37): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,44): error C2371: 'BYTE': redefinition; different basic types
+  (compiling source file 'CPU.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\Common.h(13,17):
+      see declaration of 'BYTE'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,49): error C2146: syntax error: missing ';' before identifier 'opcode'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,55): error C2059: syntax error: ')'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,15): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,15): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,22): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'CPU.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(7,30):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,36): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,41): error C2059: syntax error: ')'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,18): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,18): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,25): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'CPU.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(7,30):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,38): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,43): error C2059: syntax error: ')'
+  (compiling source file 'CPU.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(8,4): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(10,2): error C2065: 'CPU': undeclared identifier
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(10,5): error C2297: '*': not valid as right operand has type 'int *'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(10,27): error C2065: 'CPU': undeclared identifier
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(14,7): error C2223: left of '->PC' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(15,7): error C2223: left of '->AF' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(16,7): error C2223: left of '->BC' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(17,7): error C2223: left of '->DE' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(18,7): error C2223: left of '->HL' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(20,7): error C2223: left of '->SP' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(22,7): error C2223: left of '->instructionSet' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(22,24): warning C4013: 'CPUInstructionSetConstructor' undefined; assuming extern returning int
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(23,7): error C2223: left of '->fetch' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(23,16): error C2065: 'fetch': undeclared identifier
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(24,7): error C2223: left of '->execute' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(24,18): error C2065: 'execute': undeclared identifier
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(29,15): error C2143: syntax error: missing ')' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(29,15): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(29,22): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(7,30):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(29,35): error C2143: syntax error: missing ';' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(29,40): error C2059: syntax error: ')'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(29,37): error C2054: expected '(' to follow 'mem'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(36,17): error C2143: syntax error: missing ')' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(36,17): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(36,24): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(7,30):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(36,37): error C2143: syntax error: missing ';' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(36,44): error C2371: 'BYTE': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\Common.h(13,17):
+      see declaration of 'BYTE'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(36,49): error C2146: syntax error: missing ';' before identifier 'opcode'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(36,55): error C2059: syntax error: ')'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(36,49): error C2054: expected '(' to follow 'opcode'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(57,18): error C2143: syntax error: missing ')' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(57,18): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(57,25): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(7,30):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(57,38): error C2143: syntax error: missing ';' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(57,43): error C2059: syntax error: ')'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(57,40): error C2054: expected '(' to follow 'mem'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(73,16): error C2143: syntax error: missing ')' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(73,16): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(73,23): error C2371: 'BYTE': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\Common.h(13,17):
+      see declaration of 'BYTE'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(73,27): error C2143: syntax error: missing ';' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(73,35): error C2371: 'BYTE': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\Common.h(13,17):
+      see declaration of 'BYTE'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(73,39): error C2143: syntax error: missing ';' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(73,44): error C2059: syntax error: ')'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(73,41): error C2054: expected '(' to follow 'src'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(81,16): error C2143: syntax error: missing ')' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(81,16): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(81,23): error C2371: 'BYTE': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\Common.h(13,17):
+      see declaration of 'BYTE'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(81,27): error C2143: syntax error: missing ';' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(81,35): error C2371: 'BYTE': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\Common.h(13,17):
+      see declaration of 'BYTE'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(81,40): error C2146: syntax error: missing ';' before identifier 'value'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(81,45): error C2059: syntax error: ')'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(81,40): error C2054: expected '(' to follow 'value'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(89,17): error C2143: syntax error: missing ')' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(89,17): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(89,24): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(7,30):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(89,37): error C2143: syntax error: missing ';' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(89,44): error C2371: 'BYTE': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\Common.h(13,17):
+      see declaration of 'BYTE'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(89,49): error C2146: syntax error: missing ';' before identifier 'value'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(89,54): error C2059: syntax error: ')'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(89,49): error C2054: expected '(' to follow 'value'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(94,17): error C2143: syntax error: missing ')' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(94,17): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(94,24): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(7,30):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(94,37): error C2143: syntax error: missing ';' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(94,42): error C2059: syntax error: ')'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(94,39): error C2054: expected '(' to follow 'mem'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(102,17): error C2143: syntax error: missing ')' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(102,17): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(102,24): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(7,30):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(102,37): error C2143: syntax error: missing ';' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(102,44): error C2371: 'uint16_t': redefinition; different basic types
+      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\stdint.h(23,28):
+      see declaration of 'uint16_t'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(102,53): error C2146: syntax error: missing ';' before identifier 'addr'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(102,57): error C2059: syntax error: ')'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(102,53): error C2054: expected '(' to follow 'addr'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(107,17): error C2143: syntax error: missing ')' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.c(107,17): error C1003: error count exceeds 100; stopping compilation
   EMULATOR.c
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,34): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,34): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,41): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'EMULATOR.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\MemorySub.h(25,3):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,54): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,59): error C2059: syntax error: ')'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(54,5): error C2061: syntax error: identifier 'InstructionFn'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(56,1): error C2059: syntax error: '}'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(73,2): error C2061: syntax error: identifier 'CPUInstructionSet'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(74,1): error C2059: syntax error: '}'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(80,4): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,17): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,17): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,24): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'EMULATOR.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\MemorySub.h(25,3):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,37): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,44): error C2371: 'BYTE': redefinition; different basic types
+  (compiling source file 'EMULATOR.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\Common.h(13,17):
+      see declaration of 'BYTE'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,49): error C2146: syntax error: missing ';' before identifier 'opcode'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,55): error C2059: syntax error: ')'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,15): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,15): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,22): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'EMULATOR.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\MemorySub.h(25,3):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,36): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,41): error C2059: syntax error: ')'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,18): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,18): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,25): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'EMULATOR.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\MemorySub.h(25,3):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,38): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,43): error C2059: syntax error: ')'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(10,2): error C2061: syntax error: identifier 'CPU'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(15,1): error C2059: syntax error: '}'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(17,9): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(18,30): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(18,30): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(18,35): error C2059: syntax error: ')'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(20,34): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(20,34): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(20,39): error C2059: syntax error: ')'
+  (compiling source file 'EMULATOR.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(8,9): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(11,2): error C2065: 'CPU': undeclared identifier
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(11,5): error C2297: '*': not valid as right operand has type 'int *'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(16,2): error C2065: 'Emulator': undeclared identifier
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(16,10): error C2297: '*': not valid as right operand has type 'int *'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(16,32): error C2065: 'Emulator': undeclared identifier
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(37,7): error C2223: left of '->cartridge' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(38,7): error C2223: left of '->header' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(39,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(40,7): error C2223: left of '->cpu' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(43,14): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(43,2): error C2198: 'void *memset(void *,int,size_t)': too few arguments for call
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(48,15): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(48,58): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(48,2): error C2198: 'void *memcpy(void *,const void *,size_t)': too few arguments for call
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(49,15): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(49,60): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(49,2): error C2198: 'void *memcpy(void *,const void *,size_t)': too few arguments for call
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(50,15): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(50,53): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(50,2): error C2198: 'void *memcpy(void *,const void *,size_t)': too few arguments for call
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(51,15): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(51,64): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(51,2): error C2198: 'void *memcpy(void *,const void *,size_t)': too few arguments for call
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(52,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(53,15): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(53,65): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(53,2): error C2198: 'void *memcpy(void *,const void *,size_t)': too few arguments for call
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(54,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(55,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(56,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(57,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(58,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(59,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(60,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(61,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(62,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(63,7): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(65,7): warning C4013: 'CompareNintendoLogo' undefined; assuming extern returning int
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(68,3): warning C4013: 'DestroyEmulator' undefined; assuming extern returning int
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(72,45): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(72,67): error C2223: left of '->header' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(72,18): error C2198: 'BYTE computeHeaderChecksum(const BYTE *,const Cartridge_Header *)': too few arguments for call
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(75,23): error C2223: left of '->mem' must point to struct/union
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(89,34): error C2143: syntax error: missing ')' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(89,34): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(89,39): error C2059: syntax error: ')'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(89,36): error C2054: expected '(' to follow 'emu'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(108,30): error C2143: syntax error: missing ')' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(108,30): error C2143: syntax error: missing '{' before '*'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(108,35): error C2059: syntax error: ')'
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.c(108,32): error C2054: expected '(' to follow 'emu'
   main.c
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,34): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,34): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,41): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'main.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\MemorySub.h(25,3):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,54): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(50,59): error C2059: syntax error: ')'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(54,5): error C2061: syntax error: identifier 'InstructionFn'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(56,1): error C2059: syntax error: '}'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(73,2): error C2061: syntax error: identifier 'CPUInstructionSet'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(74,1): error C2059: syntax error: '}'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(80,4): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,17): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,17): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,24): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'main.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\MemorySub.h(25,3):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,37): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,44): error C2371: 'BYTE': redefinition; different basic types
+  (compiling source file 'main.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\Common.h(13,17):
+      see declaration of 'BYTE'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,49): error C2146: syntax error: missing ';' before identifier 'opcode'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(82,55): error C2059: syntax error: ')'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,15): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,15): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,22): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'main.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\MemorySub.h(25,3):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,36): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(83,41): error C2059: syntax error: ')'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,18): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,18): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,25): error C2371: 'GBC_MemoryMap': redefinition; different basic types
+  (compiling source file 'main.c')
+      F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\MemorySub.h(25,3):
+      see declaration of 'GBC_MemoryMap'
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,38): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\CPU.h(85,43): error C2059: syntax error: ')'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(10,2): error C2061: syntax error: identifier 'CPU'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(15,1): error C2059: syntax error: '}'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(17,9): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(18,30): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(18,30): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(18,35): error C2059: syntax error: ')'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(20,34): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(20,34): error C2143: syntax error: missing '{' before '*'
+  (compiling source file 'main.c')
+  
+F:\Projects\GameBoy-Color-Emulator---C\Gameboy Color\EMULATOR.h(20,39): error C2059: syntax error: ')'
+  (compiling source file 'main.c')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'main.c')
+      C:\vcpkg\installed\x64-windows\include\GLFW\glfw3.h(123,11):
+      see previous definition of 'APIENTRY'
+  
   Generating Code...
-  Gameboy Color.vcxproj -> F:\Projects\GameBoy-Color-Emulator---C\x64\Debug\Gameboy Color.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.

@@ -47,7 +47,20 @@ typedef union {
     uint16_t HL;
 } HLRegister;
 
+typedef void (*InstructionFn)(CPU* cpu, GBC_MemoryMap* mem);
 
+
+typedef struct {
+    InstructionFn table[256];
+    BYTE cycles[256];
+} CPUInstructionSet;
+
+
+typedef struct
+{
+    void* GARBAGE;
+
+}OPCODES;
 typedef struct {
     AFRegister AF;
     BCRegister BC;
@@ -56,7 +69,8 @@ typedef struct {
 
     uint16_t SP;  // Stack Pointer
     uint16_t PC;  // Program Counter
-
+    
+	CPUInstructionSet* instructionSet;
 } CPU;
 
 // Read/write helpers that operate on the memory map
@@ -64,4 +78,14 @@ BYTE cpu_read8(GBC_MemoryMap* mem, ADDR addr);
 BYTE cpu_write8(GBC_MemoryMap* mem, ADDR addr, BYTE val);
 
 CPU* CPUConstructor();
+
+void execute(CPU* cpu, GBC_MemoryMap* mem, BYTE opcode);
+BYTE fetch(CPU* cpu, GBC_MemoryMap * mem);
+
+void CPU_Step(CPU* cpu, GBC_MemoryMap* mem);
+
+
+
+//Implement Fetch Execute Cycle Here.
+
 #endif // !CPU_H

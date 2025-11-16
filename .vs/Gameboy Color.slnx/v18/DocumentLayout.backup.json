@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "F:\\Projects\\GameBoy-Color-Emulator---C\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|solutionrelative:Gameboy Color\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\CPU.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|solutionrelative:Gameboy Color\\CPU.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\EMULATOR.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|solutionrelative:Gameboy Color\\EMULATOR.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\CPU.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|solutionrelative:Gameboy Color\\CPU.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|solutionrelative:Gameboy Color\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\EMULATOR.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|solutionrelative:Gameboy Color\\EMULATOR.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\CPU.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|solutionrelative:Gameboy Color\\CPU.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\EMULATOR.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FA80E09E-DB83-4D0A-B1D3-FF0E762611F9}|Gameboy Color\\Gameboy Color.vcxproj|solutionrelative:Gameboy Color\\EMULATOR.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.c",
               "DocumentMoniker": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\main.c",
               "RelativeDocumentMoniker": "Gameboy Color\\main.c",
               "ToolTip": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\main.c",
               "RelativeToolTip": "Gameboy Color\\main.c",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-03T19:44:49.164Z",
               "IsPinned": true,
@@ -44,44 +48,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EMULATOR.c",
               "DocumentMoniker": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\EMULATOR.c",
               "RelativeDocumentMoniker": "Gameboy Color\\EMULATOR.c",
               "ToolTip": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\EMULATOR.c",
               "RelativeToolTip": "Gameboy Color\\EMULATOR.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAG0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-07T18:57:05.558Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EMULATOR.h",
               "DocumentMoniker": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\EMULATOR.h",
               "RelativeDocumentMoniker": "Gameboy Color\\EMULATOR.h",
               "ToolTip": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\EMULATOR.h",
               "RelativeToolTip": "Gameboy Color\\EMULATOR.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-08T08:29:56.043Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CPU.h",
+              "DocumentMoniker": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\CPU.h",
+              "RelativeDocumentMoniker": "Gameboy Color\\CPU.h",
+              "ToolTip": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\CPU.h",
+              "RelativeToolTip": "Gameboy Color\\CPU.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-10T17:35:28.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CPU.c",
               "DocumentMoniker": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\CPU.c",
               "RelativeDocumentMoniker": "Gameboy Color\\CPU.c",
               "ToolTip": "F:\\Projects\\GameBoy-Color-Emulator---C\\Gameboy Color\\CPU.c",
               "RelativeToolTip": "Gameboy Color\\CPU.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAmwG8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-08T08:29:46.855Z",
-              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

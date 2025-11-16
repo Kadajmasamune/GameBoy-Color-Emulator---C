@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "EMULATOR.h"
+#include <GLFW/glfw3.h>
+
 
 //TODO : Create CPU now
 #if defined(_WIN32)
@@ -47,14 +49,29 @@ int main(int argc , char* argv) {
     getchar();
 #endif
 
-    Emulator* emulator = initEmulator();
+    /*Emulator* emulator = initEmulator();
 
     printf("Starting Emulation Loop ... \n");
     printf("Reading Cartridge Title.. \n");
     for (int i = 0; i < 16; i++) {
         printf("%c", emulator->cartridge->Title[i]);
     }
-    DestroyEmulator(emulator);
+    DestroyEmulator(emulator);*/
+    glfwInit();
 
+	GLFWwindow* window = glfwCreateWindow(640, 480, "Gameboy Color Emulator", NULL, NULL);
+    if (!window) {
+        glfwTerminate();
+        return -1;
+    }
+    glfwMakeContextCurrent(window);
+    while (!glfwWindowShouldClose(window)) {
+        glClear(GL_COLOR_BUFFER_BIT);
+        // Render OpenGL here
+        glfwSwapBuffers(window);
+        glfwPollEvents();
+	}
+
+	glfwTerminate();
     return 0;
 }
